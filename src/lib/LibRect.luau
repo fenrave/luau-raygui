@@ -30,7 +30,7 @@ type InternalRect = {
     height: number
 }
 
-type Rectangle = typeof(setmetatable(
+export type Rectangle = typeof(setmetatable(
         {} :: InternalRect,
         {} :: {
             read __index: (t: InternalRect, Index: string) -> number,
