@@ -237,7 +237,7 @@ local fndefs = {
 }
 
 local export = {}
-export.const = {
+export.components = {
     structs = {
         Rectangle = Rectangle,
         Font = Font,

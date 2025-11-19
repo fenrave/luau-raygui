@@ -6,7 +6,7 @@ This is a helper library meant to make the process of interacting with rectangle
 
 local raygui = require("@raygui")
 
-local Rectangle = raygui.structs.Rectangle
+local Rectangle = raygui.components.structs.Rectangle
 
 type List<k, t> = {
     [k]: t
