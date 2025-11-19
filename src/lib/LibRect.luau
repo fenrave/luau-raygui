@@ -1,4 +1,9 @@
---!native
+--[==[+
+
+This is a helper library meant to make the process of interacting with rectangles just a bit easier (no raw buffer reads/writes)
+
++]==]--
+
 local raygui = require("@raygui")
 
 local Rectangle = raygui.structs.Rectangle
